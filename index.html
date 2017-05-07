@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Calculator</title>
+
+    
+    
+    <link href="css/mycss.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="main-container">
+        <div class="display-container">
+            <div class="display">0</div>
+        </div>
+        <div class="container-button__left">
+            <ul class="row-joint row-1">
+                <li class="memory-clean">MC</li>
+                <li data-value="numeric">7</li>
+                <li data-value="numeric">8</li>
+                <li data-value="numeric">9</li>
+                <li data-value="/">/</li>
+            </ul>
+            <ul class="row-joint row-2">
+                <li class="memory-output">MR</li>
+                <li data-value="numeric">4</li>
+                <li data-value="numeric">5</li>
+                <li data-value="numeric">6</li>
+                <li data-value="*">*</li>
+            </ul>
+            <ul class="row-joint row-3">
+                <li class="memory-minus">M-</li>
+                <li data-value="numeric">1</li>
+                <li data-value="numeric">2</li>
+                <li data-value="numeric">3</li>
+                <li data-value="-">-</li>
+            </ul>
+            <ul class="row-joint row-4">
+                <li class="memory-plus">M+</li>
+                <li data-value="numeric">0</li>
+                <li data-value=".">.</li>
+                <li data-value="+/-">+/-</li>
+                <li data-value="+">+</li>
+            </ul>
+            
+        </div>
+        <ul class="container-button__right">
+            <li class="backspase">Backspase</li>
+            <li class="c" data-value="C">C</li>
+            <li class="is" data-value="=">=</li>
+        </ul>
+        <div class="clearfix"></div>
+    </div>
+    
+    
+    <script src="js/my1js.js"></script>
+</body>
+</html>
